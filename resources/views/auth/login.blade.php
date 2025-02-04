@@ -1,7 +1,7 @@
 <x-layout>
 
     <x-slot:heading>
-        Create Job
+        Login
 </x-slot:heading>
 
 
@@ -11,7 +11,7 @@
 
   <div class="space-y-12">
     <div class="border-b border-gray-900/10 pb-12">
-      <h2 class="text-base/7 font-semibold text-gray-900">Create Job</h2>
+      <h2 class="text-base/7 font-semibold text-gray-900">Login</h2>
      
 
       <div class="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
