@@ -29,7 +29,8 @@
               <a href="/" class="{{request()->is('/') ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white'}}rounded-md  px-3 py-2 text-sm font-medium text-white" aria-current="page">Home</a>
               <a href="/jobs" class="{{request()->is('jobs') ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white'}}rounded-md px-3 py-2 text-sm font-medium text-gray-300 hover:text-white">jobs</a>
               <a href="/contact" class="{{request()->is('contact') ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white'}}rounded-md px-3 py-2 text-sm font-medium text-gray-300  hover:text-white">Contact</a>
-              
+              <a href="/jobs/create" class="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Create Job</a>
+
             </div>
           </div>
         </div> 
