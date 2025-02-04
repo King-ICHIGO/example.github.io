@@ -21,6 +21,8 @@ class AppServiceProvider extends ServiceProvider
     public function boot(): void
     {
         //Models::preventlazyLoading();
+
+       // Gate::define('edit-job' , function (User $user))
     }
 }
  
