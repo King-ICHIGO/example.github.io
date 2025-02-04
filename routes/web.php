@@ -1,5 +1,7 @@
 <?php
 
+    use App\Http\Controller\LoginController;
+    use App\Http\Controller\RegisterController;
     use Illuminate\Support\Facades\Route;
     use App\Models\Job;
     use App\Http\Controllers\JobController;
@@ -14,12 +16,12 @@
 
     // Auth
     // Register
-    Route::get('/register' , [App\Http\Controller\RegisterController::class , 'create']);
-    Route::post('/register' , [App\Http\Controller\RegisterController::class , 'store']);
+    Route::get('/register' , [RegisterController::class , 'create']);
+    Route::post('/register' , [RegisterController::class , 'store']);
 
 
     //Login
-    Route::get('/login' , [App\Http\Controller\LoginController::class , 'create']);
-    Route::post('/login' , [App\Http\Controller\LoginController::class , 'store']);
+    Route::get('/login' , [LoginController::class , 'create']);
+    Route::post('/login' , [LoginController::class , 'store']);
 
 
